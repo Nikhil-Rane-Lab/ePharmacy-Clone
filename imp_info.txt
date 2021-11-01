@@ -6,3 +6,5 @@ suraj -> deleted index.html from the frontend directory.
 
 suraj -> pushing the seperate file directory for the backend and intex.html in the root folder.
 
+suraj -> icon folder in the frontend directory
+
