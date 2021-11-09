@@ -4,3 +4,9 @@ let topStructure = document.querySelector('.structureTop');
 let bottomStructure = document.querySelector('.structureBottom');
 topStructure.innerHTML = structureTop();
 bottomStructure.innerHTML = structureBottom();
+
+let diagnostic = document.querySelector('#diagnostic');
+diagnostic.addEventListener('click', () => {
+	window.location.href = '../diagnostic/diagnostic.html';
+});
+

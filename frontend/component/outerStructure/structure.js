@@ -16,19 +16,19 @@ function structureTop() {
 function structureBottom() {
 	return `<div class="display-abs">
     <div class="bottom-navbar dis-flex">
-        <div class="nav-icon">
+        <div class="nav-icon" id="home">
             <img src="../icons/structure/home.svg" alt="">
             <div>Home</div>
         </div>
-        <div class="nav-icon">
+        <div class="nav-icon" id="myOrder">
             <img src="../icons/structure/myOrder.svg" alt="">
             <div>My Order</div>
         </div>
-        <div class="nav-icon">
+        <div class="nav-icon" id="diagnostic">
             <img src="../icons/structure/digonastic.svg" alt="">
             <div>Diagnostic</div>
         </div>
-        <div class="nav-icon">
+        <div class="nav-icon" id="profile">
             <img src="../icons/structure/profile.svg" alt="">
             <div>Profile</div>
         </div>          
