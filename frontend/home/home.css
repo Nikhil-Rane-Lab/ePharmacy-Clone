@@ -7,6 +7,7 @@
 .dis-flex-col {
 	display: flex;
 	flex-direction: column;
+	text-align: center;
 }
 .dis-flex {
 	display: flex;
@@ -21,13 +22,14 @@
 
 .top-wrapper-div {
 	width: 412px;
-	height: 84px;
+	height: 68px;
 	background-color: #ffffff;
 	position: absolute;
+	top: 16px;
 }
 
 .top-navbar {
-	margin: 34px 22px auto 30px;
+	margin: 16px 22px auto 30px;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -78,21 +80,17 @@ form {
 	border-radius: 8px;
 	background-color: #fffdfd;
 	align-items: center;
-}
-
-.service-div div img {
-	margin: 6px auto 10px;
-	width: 40px;
-}
-
-.service-div div strong {
 	font-family: 'Poppins', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 14px;
 	color: #292929;
-	text-align: center;
+}
+
+.service-div div img {
+	margin: 6px auto 0px;
+	width: 40px;
 }
 
 /* category partion */
@@ -124,4 +122,40 @@ form {
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
 	grid-row: auto;
+}
+
+.catogory_type {
+	text-align: center;
+	margin-bottom: 10px;
+	border-radius: 8px;
+}
+.catogory_type img:hover{
+	border: 2px solid rgb(84, 84, 255);
+	border-radius: 8px;
+}
+
+.cat_image .catogory_type div {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 14px;
+}
+
+.empty-last {
+	width: 412px;
+	height: 65px;
+}
+
+.health-article {
+	width: 412px;
+	overflow: scroll;
+}
+
+.health-article::-webkit-scrollbar {
+	display: none;
+}
+
+.health-article img {
+	margin-right: 10px;
 }
