@@ -1,0 +1,252 @@
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+
+#cartOuterDiv{
+  width: 414px;
+	height: 896px;
+	margin: 0 auto;
+  position: relative ;
+	background-color: #F6FAFD;
+}
+
+#cartHead{
+   z-index: 10;
+   top: 0px;
+   width: 414px;
+   height: 74px;
+   left: 0px;
+   top: 25px;
+   display: flex;
+   background: #FFFFFF;
+   box-shadow:  0px 1px 4px rgba(0, 0, 0, 0.12);
+}
+
+#cartHead > p{
+
+  position: relative;
+  width: 79px;
+  height: 30px;
+  left: 62px;
+  top: 32px;
+
+  /* H3 Medium 20 px */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+ /* identical to box height */
+
+ display: flex;
+ align-items: center;
+
+ /* P grad (black 30%) */
+
+ color: #2E4B7F;
+}
+
+#cartHead img{
+  position: relative;
+  left: 8.33%;
+  right: 16.67%;
+  width: 17px;
+  height: 17px;
+  top: 49%;
+   
+}
+
+#cartBody{
+  display:flexbox;
+  
+  width: 370px;
+  height: 588px;
+  margin-left: 5%;
+  margin-top: 3%;
+  padding-top: 1%;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+#cartItemBox{
+  display: flexbox;
+ width: 320px;
+ height: 138px;
+ margin-left: 20px;
+ margin-top: 4%;
+ background: #FFFFFF;
+}
+
+#cartItem{
+  display: flex;
+  width: 320px;
+  height: 96px;
+  left: 25px;
+  top: 19px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+}
+
+#itemOperation{
+  display: flex;
+  width: 320px;
+  height: 26px;
+  left: 25px;
+  margin-top: 4%;
+  background: #FFFFFF;
+   
+}
+
+#cartItem img{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  left: 18px;
+  top: 18px;
+
+  background: url(.jpg);
+  /* P Gradient white 20% */
+
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+#medicineName{
+  position: relative;
+  width: 164px;
+  height: 21px;
+  margin-left: 25px;
+  margin-top: 24px;
+  
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  
+   
+  align-items: center;
+  
+  /* Font */
+  
+  color: #292929;
+}
+
+#tabletName{
+  position: relative;
+  width: 51px;
+  height: 15px;
+  margin-left: 25px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #292929;
+
+}
+
+#Prescription {
+  position: relative;
+  width: 163px;
+  height: 12px;
+  margin-left: 25px;
+  margin-top: 5px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 12px;
+  /* identical to box height */
+
+  align-items: center;
+
+  /* Red */
+
+  color: #F3464A;
+}
+
+#price{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+  
+  position: relative;
+  width: 68px;
+  height: 23px;
+  margin-top: 54px;
+
+  background: #008A59;
+  border-radius: 2px;
+  color: white;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 21px;
+  align-items: center;
+}
+
+#minus {
+  width: 25px;
+  height: 25px;
+  margin-left: 120px;
+  top: 0px;
+  padding-left: 4px;
+  padding-right: 4px;
+  /* Primary */
+  
+  border: 1px solid #426BB6;
+  box-sizing: border-box;
+  border-radius: 4px; 
+}
+
+.quantity{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  margin-left: 10px;
+  margin-right: 10px ;
+}
+
+#plus{
+   border: 1px solid #426BB6;
+   box-sizing: border-box;
+   border-radius: 4px; 
+   padding: 4px;
+}
+
+.deleteItem{
+  text-decoration: none;
+  color: white;
+  width: 74px;
+  margin-left: 45px;
+  top: 22.96%;
+  bottom: 72.28%;
+  cursor: pointer;
+  /* P Gradient white 40% */
+  border:  1px solid #8EA6D3;
+  background: #8EA6D3;
+  border-radius: 4px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+
+.display-abs1 {
+  z-index: 10;
+}
