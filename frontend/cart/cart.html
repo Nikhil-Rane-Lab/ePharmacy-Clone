@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../component/outerStructure/structure.css">
+
+</head>
+<body>
+
+    <div id="cartOuterDiv" >
+        <div id="structureTop">
+
+        </div>
+        <div id="cartHead">
+            <img  src="../icons/cart/backArrow.svg" alt="">  <p>My Cart</p>
+        </div>
+
+        <div id="cartBody">
+            <div id="cartItemBox" >
+              <div id="cartItem">
+                <img src="../icons/cart/paracetamol.png" alt="">
+                 <div>
+                    <p id="medicineName"> Paracetamol Tablets IP</p>
+                    <p id="tabletName">Parvis650 </p>
+                    <p id="Prescription"> * Prescription not required </p>
+                 </div>
+                 <div id="price">90 Rs</div>
+              </div>
+              <div id="itemOperation" >
+                  <a href="#" id="Decrease" > <img id="minus" src="../icons/cart/minus.svg" alt=""> </a>
+                  <p class="quantity">2</p>
+                  <a href="#" id="Increase">  <img id="plus" src="../icons/cart/plus.svg" alt=""> </a>
+                  <button href="#" class="deleteItem">Delete</button>
+              </div>
+            </div>
+            
+            <div id="cartItemBox" >
+                <div id="cartItem">
+                  <img src="../icons/cart/sinarest.png" alt="">
+                   <div>
+                      <p id="medicineName"> Sinarest AF  Drops</p>
+                      <p id="tabletName">Parvis650 </p>
+                      <p id="Prescription"> * Prescription required </p>
+                   </div>
+                   <div id="price">190 Rs</div>
+                </div>
+                <div id="itemOperation" >
+                    <a href="#" id="Decrease" > <img id="minus" src="../icons/cart/minus.svg" alt=""> </a>
+                    <p class="quantity">2</p>
+                    <a href="#" id="Increase">  <img id="plus" src="../icons/cart/plus.svg" alt=""> </a>
+                    <button href="#" class="deleteItem">Delete</button>
+                </div>
+                <br>
+                <hr>
+              </div>
+
+              
+
+        </div>
+        
+    </div>
+    
+</body>
+</html>
+
+<script src="cartmodule.js" type="module" ></script>
