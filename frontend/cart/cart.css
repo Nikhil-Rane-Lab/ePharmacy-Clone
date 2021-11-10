@@ -15,7 +15,8 @@
 }
 
 #cartHead{
-    
+   z-index: 10;
+   top: 0px;
    width: 414px;
    height: 74px;
    left: 0px;
@@ -62,6 +63,7 @@
 
 #cartBody{
   display:flexbox;
+  
   width: 370px;
   height: 588px;
   margin-left: 5%;
@@ -245,3 +247,6 @@
 }
 
 
+.display-abs1 {
+  z-index: 10;
+}
