@@ -90,6 +90,14 @@ form {
 	color: #292929;
 }
 
+.service-sdiv {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 3px;
+}
+
+.service-sdiv:hover {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .service-div div img {
 	margin: 6px auto 0px;
 	width: 40px;
@@ -131,8 +139,9 @@ form {
 	margin-bottom: 10px;
 	border-radius: 8px;
 }
-.catogory_type img:hover{
-	border: 2px solid rgb(84, 84, 255);
+.catogory_type img:hover {
+	/* border: 2px solid rgb(84, 84, 255); */
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	border-radius: 8px;
 }
 
