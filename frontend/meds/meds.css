@@ -1,0 +1,21 @@
+body {
+  /* background-color: #eef3f9bf; */
+  background-color: pink;
+  background-color: #e5e5e5;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+}
+.search-text-res {
+  display: flex;
+  margin-top: 20%;
+  height: 30%;
+}
+.main-text-res {
+  display: flex;
+  margin-top: 5%;
+  height: 15%;
+}
