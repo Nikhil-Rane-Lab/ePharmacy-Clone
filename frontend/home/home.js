@@ -10,3 +10,14 @@ diagnostic.addEventListener('click', () => {
 	window.location.href = '../diagnostic/diagnostic.html';
 });
 
+// function timeClock(){
+//     setTimeout("timeClock()", 1000);        
+//     now = new Date();
+//     alert(now);
+//     f_date = now.getDate()+" "+strMonth(now.getMonth())+" "+now.getFullYear()+" / "+timeFormat(now.getHours(), now.getMinutes());
+//     return f_date;
+// }
+
+// setInterval(()=>{
+
+// })

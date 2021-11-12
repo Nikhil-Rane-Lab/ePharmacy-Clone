@@ -8,6 +8,9 @@
 	align-items: center;
 }
 
+.display-property-none {
+	display: none;
+}
 .diagnost-text {
 	width: 412px;
 	height: 68px;
@@ -122,7 +125,7 @@
 	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.14);
 	border-radius: 4px;
 	width: 368px;
-	height: 124px;
+	/* height: 124px; */
 	margin-bottom: 12px;
 	padding: 16px 20px 12px;
 	justify-content: space-between;
@@ -136,26 +139,22 @@
 	line-height: 22px;
 	margin-bottom: 10px;
 	/* or 137% */
-
 	/* grad(black 50%) */
-
 	color: #1b707b;
 }
 
 .left-popular {
-	width: 184px;
+	/* width: 184px; */
 }
 
 .no-certificate-lab {
 	/* C2 medium 12px */
-
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 12px;
 	line-height: 18px;
 	margin-bottom: 5px;
-
 	color: #949292;
 }
 
@@ -239,11 +238,9 @@
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 21px;
-    margin: 3px 0 5px;
+	margin: 3px 0 5px;
 	/* identical to box height */
-
 	/* Font */
-
 	color: #292929;
 }
 
@@ -252,8 +249,19 @@
 	margin-bottom: 12px;
 }
 
-.package-text{
-    margin: 24px 0 12px;
+.partner-name-lab{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 21px;
+	margin: 20px 0 5px;
+	/* identical to box height */
+	/* Font */
+	color: #292929;
+}
+.package-text {
+	margin: 24px 0 12px;
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: 500;
@@ -265,3 +273,85 @@
 	width: 412px;
 	height: 65px;
 }
+
+/* on clicking check now */
+.heading {
+	margin: 15px 0 8px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 18px;
+	/* identical to box height */
+	/* P grad (black 30%) */
+	color: #2e4b7f;
+}
+
+.discription-content {
+	/* C2 medium 12px */
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 18px;
+
+	color: #545454;
+}
+.test-list ol {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 15px;
+	/* identical to box height */
+	/* P grad (black 30%) */
+	color: #2e4b7f;
+}
+
+.test-partner {
+	padding: 10px;
+	background: #ffffff;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.12);
+	border-radius: 4px;
+	margin-right: 10px;
+	width: 100px;
+	height: 117px;
+}
+
+.discount {
+	margin: 5px 0 5px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 8px;
+	line-height: 12px;
+	/* identical to box height */
+	/* Font */
+	justify-content: space-between;
+	color: #292929;
+}
+
+.test-partner button {
+	/* P grad (black 30%) */
+	padding: 2px;
+	background: #2e4b7f;
+	border-radius: 2px;
+	width: 100%;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10px;
+	line-height: 15px;
+	/* identical to box height */
+	text-align: center;
+	/* AC4 */
+	color: #f6fafd;
+}
+
+.partner-logo {
+	width: 84px;
+	height: 23px;
+}
+
+

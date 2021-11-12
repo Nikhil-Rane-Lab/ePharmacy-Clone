@@ -53,16 +53,53 @@
                    </div>
                    <div id="price">190 Rs</div>
                 </div>
+
+
                 <div id="itemOperation" >
                     <a href="#" id="Decrease" > <img id="minus" src="../icons/cart/minus.svg" alt=""> </a>
                     <p class="quantity">2</p>
                     <a href="#" id="Increase">  <img id="plus" src="../icons/cart/plus.svg" alt=""> </a>
                     <button href="#" class="deleteItem">Delete</button>
                 </div>
-                <br>
-                <hr>
-              </div>
+                  <br>
+                  <hr>
+            </div>
 
+            
+            
+            <div id="cartPriceDetails" >
+                <div class="coupon">
+                  <input id="cCode" type="text" placeholder="Enter Coupon Code" name="" >
+                  <p>Invalid Code</p>
+                  <img id="greentick" src="../icons/cart/greentick.svg" alt="">
+                  <button onclick="applyCoupon()" >Apply</button>
+                </div>
+                 <br>
+                <div class="mrp">
+                    <p>Item MRP</p>
+                    <p id="productsMRP">205 Rs</p>
+                </div>
+
+                <div class="mrp">
+                    <p>Shipping Charge</p>
+                    <p>80 Rs</p>
+                </div>
+
+                <div class="discount">
+                    <p class="disc1">Discount</p>
+                    <p class="disc2">12% off</p>     
+                </div>
+
+                <br>
+                <hr class="horiz-line">
+                <br>
+                <div class="total">
+                    <p>Total</p>
+                    <p id="totalAmount">251 Rs</p>
+                </div>
+            </div> 
+
+            <button id="continueBtn" >Continue</button>
               
 
         </div>
@@ -73,3 +110,4 @@
 </html>
 
 <script src="cartmodule.js" type="module" ></script>
+<script src="cart.js"></script>
