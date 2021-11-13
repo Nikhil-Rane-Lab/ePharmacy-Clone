@@ -22,5 +22,8 @@ public class Product {
     private int price;
     private int discount_percent;
     private int rating;
-    
+    private String image_url;
+
 }
+
+
