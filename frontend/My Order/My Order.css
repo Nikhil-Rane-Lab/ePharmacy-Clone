@@ -1,0 +1,239 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F6FAFD;
+}
+
+#flex4{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    padding-left: 15px;
+    background-color: white;
+}
+
+#p1{
+    margin-left: 50px;
+    font-weight: bold;
+    width: 330px;
+    font-family: sans-serif;
+    color: #2E4B7F;
+}
+
+#flex4 > div:nth-child(1)
+{
+    margin-left: 20px;
+    margin: 5px;
+    align-items: top;
+    padding-top: 2px;
+}
+
+#flex4 > div:nth-child(2)
+{
+    margin-left: 15px;
+    margin: 5px;
+    padding-left: 15px;
+}
+
+#flex4 > div:nth-child(3)
+{
+    margin: 5px;
+}
+
+.f21
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f21 > button
+{
+    background-color: #426BB6;
+    width: 346px;
+    height: 46px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: 0px;
+    margin-top: 300px;
+}
+
+#t1{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.full{
+    background-color: white;
+    background-color: 1px solid black;
+    padding: 5px;
+
+}
+
+
+.f2{
+    display: flex;
+}
+
+#o{
+    padding: 10px;
+    justify-content: start;
+}
+
+.f1{
+    display: flex;
+    margin: 10px;
+    justify-content: start;
+}
+
+.f1 > div{
+    margin: 5px;
+    padding: 2px;
+    flex-grow: 1;
+    font-size: 12px;
+}
+
+.f1 > div:nth-child(1){
+    color: #2E4B7F;
+    margin: 0px;
+    padding: 0px;
+    flex-grow: 0.5;
+} 
+
+.f1 > div:nth-child(2){
+    color: #2E4B7F;
+    font-weight: bolder;
+} 
+
+.f1 > div:nth-child(3){
+    background-color: #E0F5F8;
+    flex-grow: 1;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #426BB6;
+    font-family: sans-serif;
+} 
+
+
+.f1 > div:nth-child(4){
+    flex-grow: 9;
+} 
+
+.f2{
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    font-size: 12px;
+    
+    justify-content: start;
+}
+
+.f2 > div:nth-child(1)
+{
+    flex-grow: 1;
+    color: #385B9B;
+    font-weight: bold;
+}
+
+.f2 > div:nth-child(2)
+{
+    margin-left: 10px;
+    flex-grow: 2;
+    font-weight: bold;
+}
+
+.f3{
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    font-size: 12px;
+    justify-content: start;
+}
+
+.f3 > div:nth-child(1)
+{
+    flex-grow: 1;
+    color: #385B9B;
+    font-weight: bold;
+}
+
+.f3 > div:nth-child(2)
+{
+    margin-left: 10px;
+    flex-grow: 8;
+    font-weight: bold;
+}
+
+o > p:nth-child(1)
+{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.f4{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.f4 > div:nth-child(1)
+{
+    font-weight: bolder;
+}
+
+.f4 > div:nth-child(2)
+{
+    font-weight: bold;
+}
+
+.f5 > div:nth-child(1)
+{
+    font-weight: bolder;
+}
+
+.f5 > div:nth-child(2)
+{
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.f5{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.f4> div:nth-child(2)
+{
+    color: #F3464A;
+    font-size: 10px;
+    text-decoration: underline;
+    font-weight: 800px;
+}
+
+#cont{
+    margin: 25px;
+    margin-top: 5px;
+}
+
+.cont hr{
+    width: 80%;
+}
+
+.f5 > div:nth-child(1)
+{
+    font-size: 14px;
+}
+
+.f5 > div:nth-child(2)
+{
+    font-size: 16px;
+    color: #2E4B7F;
+    font-weight: bold;
+}
