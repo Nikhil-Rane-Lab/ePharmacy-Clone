@@ -13,3 +13,18 @@ let home = document.querySelector('#home');
 home.addEventListener('click', () => {
     window.location.href = '../home/home.html';
 });
+
+var enter_btn = document.getElementById("myInput");
+
+
+enter_btn.addEventListener("keyup", function(event) {
+// console.log(enter_btn.value.length);
+if (event.keyCode === 13&&enter_btn.value.length>=1) {
+event.preventDefault();
+redirect_to_displaycart();
+}
+});
+function redirect_to_displaycart(){
+   
+    window.location=("../product-display/product-display.html");
+}

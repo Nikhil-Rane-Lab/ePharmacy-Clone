@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>strting page</title>
+    <title>Starting page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -77,7 +77,7 @@
                
                           
                               
-                                <input type="button" id="get_started-btn" value="GET STARTED">
+                                <input type="button" id="get_started-btn" value="GET STARTED" onclick="redirect_to_signin()">
                         
                             
                         </div>
@@ -86,51 +86,7 @@
         </div>
         </div>
     </div>
-    <script>
-        var times=1;
-        console.log("uhfs");
-        function getting_anime(){
-            
-            var dis=document.getElementById("slide");
-           
-          
-            var cc1=document.getElementById("radio1");
-            var cc2=document.getElementById("radio2");
-            var cc3=document.getElementById("radio3");
-            var mt=document.getElementById("tab1_2");
-            var nxt_btn=document.getElementById("next-btn");
-            var nv_btn=document.getElementById("navigator-manual");
-            var lt=document.getElementById("last_part");
-            var btn_lt=document.getElementById("get_started-btn");
-            cc1.style.backgroundColor="white";
-           if(times==1){
-            cc2.style.backgroundColor="#426bb6";
-            //btn_round.style.color="#426bb6";
-            dis.style.margin="0px 0px 0px -65%";
-           } 
-           else if(times>1){
-            cc2.style.backgroundColor="white";
-            cc3.style.backgroundColor="#426bb6";
-            dis.style.margin="0px 0px 0px -265%";
-            
-            setTimeout(showbotttomdelay, 500);
-            function showbotttomdelay() {
-                mt.style.visibility="hidden";
-                nv_btn.style.display="none";
-                nxt_btn.style.display="none";
-            btn_lt.style.visibility="visible";
-            lt.style.visibility="visible";
-          }
-
-        
-           
-           } 
-           times++;
-          // dis.style.margin=`0px 0px 0px amtpx`;
-        }
-
-      
-       
-        </script>
+   
 </body>
 </html>
+<script src="starting.js"></script>
