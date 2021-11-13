@@ -1,187 +1,118 @@
-body {
-  /* background-color: #eef3f9bf; */
-  background-color: pink;
-  background-color: #e5e5e5;
+.dis-flex {
+  display: flex;
+  align-items: center;
+}
+
+.diagnost-text {
+  width: 412px;
+  height: 68px;
+  background-color: #ffffff;
+  margin-top: 16px;
+  padding-left: 34px;
+}
+
+.diagnost-text .main-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.diagnost-text img {
+  height: 16px;
+  width: 16px;
+  margin-right: 26px;
+}
+
+.lab-test input {
+  /* position: absolute; */
+  margin: 25px 27px;
+  /* top: 109px; */
+  background: #eef3f9;
+  /* Fainted font */
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 358px;
+  height: 46px;
+  border-radius: 6px;
+  padding-left: 10px;
+  border: 1px solid rgb(167, 167, 199);
+}
+
+.health-article {
+  width: 412px;
+  overflow: scroll;
+}
+.health-article::-webkit-scrollbar {
+  display: none;
+}
+
+.category {
+  margin: 20px 0 20px 20px;
+}
+
+.category_text {
+  margin: 10px 0px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.catogory_type_med {
+  margin-right: 10px;
+  text-align: center;
+}
+
+.catogory_type_med div {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 14px;
 }
-/* #make_scroll {
-  display: flex;
-} */
-#Search_top {
-  display: flex;
-  margin-top: 20%;
-  text-align: center;
 
-  align-items: center;
-  align-self: center;
-  height: 10%;
-  width: 100%;
-  background-color: white;
+.trending-product {
+  width: 412px;
+  overflow: scroll;
 }
-#med_text {
-  font-size: 20px;
-  background-color: #e5e5e5;
+.trending-product::-webkit-scrollbar {
+  display: none;
 }
-/*
-#search_bar_ordermeds {
-  position: absolute;
 
-  top: 20%;
-  height: 10%;
-  width: 80%;
-  left: 10%;
-  align-items: center;
-  align-self: center;
-
-  background: rgba(238, 243, 249, 0.75);
-
-  border: 1px solid #c4c4c4;
-  box-sizing: border-box;
-  border-radius: 6px;
+.recommended_type_med {
+  width: 122px;
+  height: 156px;
+  padding: 5px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  margin-right: 10px;
 }
-*/
-.diagnost-text,
-.main-text {
+
+.recommended_type_med div:nth-child(2) {
   font-family: Poppins;
   font-style: normal;
-  margin-right: 2%;
-  display: flex;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  color: #2e4b7f;
-}
-.dis-flex {
-  display: flex;
-}
-.search-text {
-  background-color: white;
-  /* position: absolute; */
-  margin-top: 4%;
-
-  overflow: hidden;
-  padding-left: 3%;
-}
-.dis-flex {
-  display: flex;
-  align-items: center;
-  height: 5%;
-  width: 100%;
-}
-/* .meds_serach_order_container {
-  margin: auto;
-
-  overflow: hidden;
-} */
-.search-name {
-  height: 40px;
-  width: 90%;
-  margin-top: -20%;
-  background-color: rgba(236, 240, 248, 0.75);
-  border: 1px solid #c4c4c4;
-  border-radius: 8px;
-  margin-left: -6%;
-}
-.dis-flex-col-meds {
-  display: flex;
-  flex-direction: column;
-}
-.search-bar {
-  background-color: #e5e5e5;
-  margin: 20%;
-  height: 6%;
-  width: 80%;
-}
-.shop_by_categort_disp {
-  display: flex;
-  margin-top: -25%;
-  height: 25%;
-  margin-left: 3%;
-  overflow: hidden;
-  background-color: white;
-}
-.recommended_title {
-  margin-top: 4%;
-  margin-bottom: 2%;
-  padding: 1%;
-  height: 20%;
-  overflow: scroll;
-}
-.recommended_title::-webkit-scrollbar {
-  display: none;
+  font-size: 12px;
+  line-height: 18px;
+  color: #292929;
+  margin-top: 5px;
 }
 
-.recommended_title img {
-  margin: 0 2%;
-}
-.catogory_type_med {
-  text-align: center;
-  margin-bottom: 10px;
-  border-radius: 8px;
-  margin-left: 2%;
-}
-.catogory_type_med img:hover {
-  border: 2px solid rgb(84, 84, 255);
-  border-radius: 8px;
+.recommended_type_med div:nth-child(3) {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  color: #949292;
+  margin-top: 3px;
 }
 
-.shop_by_trending_disp {
-  display: flex;
-  margin-top: 4%;
-  height: 30%;
-  margin-left: 3%;
-  overflow: hidden;
-}
-
-.recommended_trending_disp_title {
-  margin-top: 5%;
-  padding: 1%;
-  margin-bottom: 2%;
-
-  height: 30%;
-  overflow: scroll;
-}
-.recommended_trending_disp_title::-webkit-scrollbar {
-  display: none;
-}
-.recommended_type_med img:hover {
-  border: 2px solid rgb(84, 84, 255);
-  border-radius: 8px;
-}
-.recommended_trending_disp_title img {
-  height: 80px;
-  width: 120px;
-  margin: 0 2%;
-}
-#star {
-  height: 10px;
-  width: 10px;
-}
-.recommended_type_med {
-  text-align: center;
-  margin-bottom: 10px;
-  border-radius: 8px;
-  margin-left: 2%;
-  padding: 1%;
-  background-color: white;
-}
-.catogory_type_med img:hover {
-  border: 2px solid rgb(84, 84, 255);
-  border-radius: 8px;
-}
-.structureTop {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  display: flex;
-  /* position: sticky;
-  top: 0; */
-}
-.structureBottom {
-  position: fixed;
-  bottom: auto;
+.price {
+  margin-top: 3px;
 }
