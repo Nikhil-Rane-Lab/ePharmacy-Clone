@@ -1,0 +1,149 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#outer
+{
+    background-color: #F6FAFD;
+    padding-top: 10px;
+}
+
+#flex4 > div:nth-child(1)
+{
+    margin-left: 20px;
+}
+
+#flex4 > div:nth-child(2)
+{
+    margin-left: 15px;
+}
+
+#p2{
+    padding-top: 15px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    padding-top: 5px;
+}
+
+#flex{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #385B9B;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#flex1{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #385B9B;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#d1{
+    flex-grow: 1; margin-left: 25px;
+}
+
+#d2{
+    padding-top: 5%;
+}
+
+#d3{
+    align-self: flex-start; flex-grow: 3; line-height:  1.1;
+}
+
+#s1{
+    font-style: normal;
+    font-weight: 880;
+    font-size: 14px;
+}
+
+#s2{
+    font-style: normal;
+    font-weight: 880;
+    font-size: 10px;
+}
+
+#d4{
+    flex-grow: 1; margin-left: 2px;
+}
+
+#d5{
+    padding-top: 15%;
+}
+
+.flex2{
+    display: flex;
+    justify-content: left;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: fit-content;
+}
+
+#icon1{
+    flex-grow: 1;
+    padding-left: 35px;
+}
+
+#icon2{
+    flex-grow: 9;
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 50;
+    font-size: 14px;
+    font-style: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#sub{
+    font-style: normal;
+    font-weight: 50;
+    font-size: 12px;
+}
+
+#flex3{
+    display: flex;
+    justify-content: center;
+}
+
+button
+{
+    margin-top: 280px;
+    width: 80%;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 0px;
+    bottom: 0px;
+    color: #6889C5;
+    background-color: #C4D1E8;
+}
+
+#flex4{
+    display: flex;
+    margin-top: 20px;
+}
+
+#flex4 > div:nth-child(1)
+{
+    margin-left: 20px;
+}
+
+#flex4 > div:nth-child(2)
+{
+    margin-left: 15px;
+}
+
+#p1{
+    font-weight: bolder;
+}

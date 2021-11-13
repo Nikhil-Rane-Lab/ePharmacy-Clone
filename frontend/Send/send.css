@@ -1,0 +1,202 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F6FAFD;
+}
+
+.f1{
+    display: flex;
+    margin: 10px;
+    padding: 15px;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.f1 > div:nth-child(1){
+    padding: 15px;
+    background-color: #426BB6;
+    border-radius: 50%;
+    margin: 8px;
+    color: white;
+    font-weight: bolder;
+}   
+
+.f1 > div:nth-child(2){
+    color: #292929;
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: bolder;
+    margin: 8px;
+    margin-bottom: 5px;
+    justify-content: top;
+    padding-top: 12px;
+}   
+
+.f1 > div:nth-child(2) > span{
+    color: #292929;
+    font-size: 8px;
+    margin: 0%;
+    padding: 0%;
+}   
+
+.f1 > div:nth-child(3){
+    flex-grow: 12;
+}  
+
+.f1 > div:nth-child(4)
+{
+    margin-top: 10px;
+    width: 80%;
+    background-color: #E6E6E6;
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 15px;
+    margin-left: 28px;
+    font-weight: bold;
+}
+
+.f2{
+    display: flex;
+    margin: 10px;
+    padding: 15px;
+    background-color: white;
+    margin-bottom: 0px;
+}
+
+.f2 > div:nth-child(1)
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.f3{
+    display: flex;
+    margin: 10px;
+    padding: 15px;
+    background-color: white;
+}
+
+.f3 > div:nth-child(1)
+{
+    margin: 6px;
+}
+
+
+.f3 > div:nth-child(2)
+{
+    align-items: top;
+    margin-top: 7px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.f3 > div:nth-child(3)
+{
+    align-items: top;
+    margin-top: 7px;
+    width: 100px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.f3 > div:nth-child(4)
+{
+    margin: 6px;
+    justify-content: center;
+}
+
+hr{
+    width: 80%;
+}
+
+.f4{
+    display: flex;
+    margin: 10px;
+    padding: 15px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.f4 > div:nth-child(1)
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: #9142B6;
+    width: 400px;
+}
+
+.f4 > div:nth-child(2)
+{
+    width: 400px;
+    height: 20px;
+}
+
+.f4 > div:nth-child(3)
+{
+    width: 170px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #9142B6;
+    align-items: top;
+    padding-bottom: 3px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.f21
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f21 > button
+{
+    background-color: #9142B6;
+    width: 346px;
+    height: 46px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: 0px;
+    margin-top: 320px;
+}
+
+#flex4{
+    display: flex;
+    margin-top: 20px;
+    background-color: #9142B6;
+    width: 100%;
+    height: 50px;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+#p1{
+    color: white;
+    margin-left: 50px;
+    font-weight: bold;
+    width: 330px;
+}
+
+#flex4 > div:nth-child(1)
+{
+    margin-left: 20px;
+    margin: 5px;
+    align-items: top;
+    padding-top: 3px;
+}
+
+#flex4 > div:nth-child(2)
+{
+    margin-left: 15px;
+    margin: 5px;
+    padding-left: 15px;
+}
+
+#flex4 > div:nth-child(3)
+{
+    margin: 5px;
+}

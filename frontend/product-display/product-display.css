@@ -1,0 +1,235 @@
+.dis-flex-col {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.dis-flex {
+  display: flex;
+}
+
+.top-wrapper-div {
+  width: 412px;
+  height: 68px;
+  padding: 14px 0;
+  background-color: #ffffff;
+  /* position: absolute;
+	top: 16px; */
+  margin-top: 16px;
+}
+
+.top-navbar {
+  margin: 0 22px auto 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.medikal-logo {
+  height: 36px;
+}
+
+.nav-icon {
+  margin: 6px;
+}
+.cart {
+  margin-left: 30px;
+}
+
+.diagnost-text .main-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+.diagnost-text img {
+  margin-right: 26px;
+}
+
+.sort-filter {
+  width: 414px;
+  height: 60px;
+  background: #f6fafd;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  justify-content: space-around;
+  align-items: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e4b7f;
+}
+
+.sort-filter img {
+  margin: 15px;
+}
+
+.sort,
+.filter {
+  align-items: center;
+}
+
+.middle {
+  width: 1px;
+  height: 75%;
+  border: 1px solid #e6e6e6;
+}
+
+.product-insert {
+  padding: 23px;
+}
+
+.single-product {
+  padding: 10px;
+  width: 366px;
+  height: 148px;
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.single-product img {
+  width: 150px;
+  height: 104px;
+  background: url(.jpg);
+  border: 1px solid #2e4b7f;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.product-left {
+  margin-right: 15px;
+}
+
+.product-left .bottom-text {
+  align-items: center;
+  justify-content: space-between;
+}
+.product-left .bottom-text div:nth-child(1) {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #292929;
+}
+.product-left .bottom-text div:nth-child(2) {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  color: #00ae70;
+}
+.product-left .bottom-text div:nth-child(3) {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration-line: line-through;
+  color: #292929;
+}
+
+.product-right {
+  text-align: left;
+}
+.product-name {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  /* grad (black 30%) */
+
+  color: #269dac;
+  margin-bottom: 5px;
+}
+
+.product-description {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #292929;
+  margin-bottom: 3px;
+}
+
+.product-size {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  color: #292929;
+  margin-bottom: 3px;
+}
+
+.product-prescription {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  color: #f3464a;
+  margin-bottom: 8px;
+}
+
+.add-to-cart {
+  padding: 7px 17px;
+  background-color: #fff;
+  border: 1px solid #426bb6;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #426bb6;
+}
+
+.structureBottom {
+  position: absolute;
+  top: 820px;
+  width: 414px;
+  height: 76px;
+  padding: 19px 22px 19px 25px;
+  background: #f6fafd;
+  box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.12);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-bottom div {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2e4b7f;
+}
+
+.go-to-cart div {
+  padding: 8px 22px;
+  width: 124px;
+  height: 38px;
+  background: #426bb6;
+  border-radius: 6px;
+  /* B2 medium 14px */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #f6fafd;
+}
+.btn-search {
+  border: none;
+  background-color: white;
+}
