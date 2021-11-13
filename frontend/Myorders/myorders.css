@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-family: 'Poppins', sans-serif;
+}
+#rule{
+  border: 1px solid #000;
+}
+#smallRule{
+  border-top: 1px solid rgba(148, 146, 146, 0.29);
+  margin: 10px 0px;
+}
+#medicine{
+  border-bottom: #2e4b7f 2px solid;
+}
+.mainOuterCont{
+  display: flex;
+  width: 414px;
+  flex-direction: column;
+  position: absolute;
+  top: 39px;
+  padding: 0px 26px;
+}
+.mainOuterCont>div{
+  margin: 15px 0px;
+}
+.titleOrder{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.titleOrder>img{
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+}
+.titleOrder>p{
+  color: #2e4b7f;
+  font-size: 20px;
+  line-height: 30px;
+}
+.navMenu{
+  padding: 0px 15px;
+}
+.navMenu>ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navMenu>ul>li{
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e4b7f;
+  height: 24px;
+}
+.medCard{
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  height: 162px;
+  width: 368px;
+}
+.medCard>li>svg{
+  margin-right: 10px;
+}
+.medCard>li{
+  margin: 10px 0px;
+}
+.medCard:hover{
+  border: 1px solid #2e4b7f;
+}

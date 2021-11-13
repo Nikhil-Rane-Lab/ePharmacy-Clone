@@ -1,0 +1,112 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#sp1{
+    margin: 10px;
+}
+
+#flex1{
+    display: flex;
+    margin-top: 20px;
+}
+
+#p1{
+    color: #2E4B7F;
+    margin-left: 50px;
+    font-weight: 550;
+    font-family: sans-serif;
+}
+
+#flex1 > div:nth-child(1)
+{
+    margin-left: 20px;
+}
+
+#flex1 > div:nth-child(2)
+{
+    margin-left: 15px;
+}
+
+#p2{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    padding-top: 5px;
+}
+
+.flex2{
+    display: flex;
+    justify-content: center;
+}
+
+.flex2 > div
+{
+    margin: 5px;
+    padding: 40px;
+    border: 1px solid #385B9B;
+    border-radius: 8px;
+}
+
+#flex3{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#sub{
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+#flex5{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: left;
+    margin-top: 200px;
+}
+
+#flex4{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: left;
+}
+
+#flex4 input
+{
+    height: 25px;
+    width: 25px;
+}
+
+#p3{
+    margin-left: 15px;
+    font-family: sans-serif;
+    padding-top: 5px;
+}
+
+#pSmall
+{
+    font-size: 12px;
+    font-size: small;
+    color:  #F3464A;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+button
+{
+    margin-top: 50px;
+    width: 80%;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 0px;
+    bottom: 0px;
+    color: #6889C5;
+    background-color: #C4D1E8;
+}

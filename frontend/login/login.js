@@ -7,9 +7,14 @@ var inputBorder = document.getElementById('mobileInput');
 inputId.addEventListener('input',validateMobile);
 //inputId.addEventListener('change',validateMobile1);
 
+  
+  document.getElementById("loginContinue").addEventListener('click', ()=>{
+    window.location = ("../OTP/OTP.html");
+  })
 
  
-
+  
+ 
 
 function validateMobile(){
    
