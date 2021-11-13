@@ -31,7 +31,7 @@
 	margin: 6px;
 }
 .cart {
-	margin-left: 30px;
+	margin-left: 10px;
 }
 
 .diagnost-text .main-text {
@@ -82,7 +82,7 @@
 .single-product {
 	padding: 10px;
 	width: 366px;
-	height: 148px;
+	/* height: 148px; */
 	background: #ffffff;
 	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.12);
 	border-radius: 6px;
@@ -134,6 +134,7 @@
 
 .product-right {
 	text-align: left;
+	width: 175px;
 }
 .product-name {
 	font-family: Poppins;
@@ -180,6 +181,7 @@
 
 .add-to-cart {
 	padding: 7px 17px;
+	width: 100%;
 	background-color: #fff;
 	border: 1px solid #426bb6;
 	box-sizing: border-box;
@@ -196,7 +198,7 @@
 .structureBottom {
 	position: absolute;
 	top: 820px;
-	width: 414px;
+	width: 412px;
 	height: 76px;
 	padding: 19px 22px 19px 25px;
 	background: #f6fafd;
@@ -212,6 +214,10 @@
 	font-size: 14px;
 	line-height: 21px;
 	color: #2e4b7f;
+}
+
+.left-bottom {
+	align-items: center;
 }
 
 .go-to-cart div {
@@ -235,6 +241,6 @@
 }
 
 .empty-last {
-	height: 65px;
+	height: 76px;
 	width: 412px;
 }

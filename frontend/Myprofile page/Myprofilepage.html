@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Myprofilepage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
@@ -15,7 +17,7 @@
         <div class="display-abs1">
             <div class="dis-flex top-nav">
                 <div class="left-top">
-                    <img src="/icons/profile-iconPack/Time.svg" alt="">
+                    <img src="../icons/profile-iconPack/Time.svg" alt="">
                 </div>
                 <div class="right-top">
                     <img src="../icons/profile-iconPack/Cellular Connection.svg" alt="">
@@ -65,10 +67,10 @@
                 </div>
                 <div class="user-secondary">
                     <div class="menuDiv">
-                       <div class="inside_menu">
+                        <div class="inside_menu">
                             <img src="../icons/profile-iconPack/myOrder.svg" alt="" class="icon_pack">
                             <p>My orders</p>
-                       </div>
+                        </div>
                         <img src="../icons/profile-iconPack/ArrowIcon.svg" alt="" class="icon_pack2">
                     </div>
                     <div class="menuDiv">
@@ -132,3 +134,9 @@
 </body>
 
 </html>
+
+
+<script type="module">
+    import timer from '../component/displayTime/time.js'
+    timer();
+</script>

@@ -16,3 +16,6 @@ a.addEventListener("click", function()
         }
     }
 );
+
+import timer from '../component/displayTime/time.js';
+timer();
