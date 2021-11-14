@@ -20,6 +20,8 @@ function decTimer()
         colorChangeToDark();
     else
         colorChangeToFaint();
+
+    progress();
         
 }
 
@@ -36,3 +38,26 @@ function colorChangeToFaint()
     let btn = document.getElementById("btn");
     btn.style.backgroundColor = "#6889C5B2";
 }
+
+var pro = document.getElementById("pro");
+
+function showAnimation()
+{
+    setInterval(proInc ,1000);
+}
+
+var p = 1;
+
+function proInc()
+{
+    p += 50;
+
+    if(p > 400)
+        p = 380;
+
+    pro.style.width = `${p}`+ "px";
+
+    if(p == 380)
+    window.location=("../home/home.html");
+}
+

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="epharmacy@localhost" uuid="4cc402dd-cd84-4444-9612-c27a5957680f">
+    <data-source source="LOCAL" name="epharmacy@mysql-57826-0.cloudclusters.net" uuid="ef60be47-9584-4091-80c1-8336fd85ceeb">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/epharmacy</jdbc-url>
+      <jdbc-url>jdbc:mysql://mysql-57826-0.cloudclusters.net:17597/epharmacy</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

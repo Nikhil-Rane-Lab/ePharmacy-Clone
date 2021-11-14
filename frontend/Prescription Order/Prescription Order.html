@@ -30,7 +30,7 @@
     <br>
 
     <div id="flex1">
-        <div><img src="..\icons\paymentImages\back_arrow.png"></div>
+        <div><input type="image" name="btn_image" id="back_btn"  src="../icons/left-arrow.svg" onclick="redirect_back()"/></div>
         <div id="p1">Prescription Order</div>
     </div>
 
@@ -74,4 +74,9 @@
     
 </body>
 </html>
-<script src="Prescription Order.js"></script>
+<script src="Prescription Order.js" type="module"></script>
+<script>
+    function  redirect_back(){
+    window.location=("../Attach Prescription/Attach Prescription.html");
+  }
+</script>

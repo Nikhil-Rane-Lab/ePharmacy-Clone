@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +12,9 @@
     <link rel="stylesheet" href="My Order.css">
     <title>My Order</title>
 </head>
+
 <body>
-    
+
     <div class="display-abs1">
         <div class="dis-flex top-nav">
             <div class="left-top">
@@ -25,14 +27,14 @@
             </div>
         </div>
     </div>
-    
+
     <div id="flex4">
         <div><input type="image" name="btn_image" id="back_btn"  src="../icons/left-arrow.svg" onclick="redirect_back()"/></div>
         <div id="p1"> My Order </div>
     </div>
 
     <div id="t1">Order Successful</div>
-    
+
     <div id="t1"><img src="..\icons\paymentImages\tick2.png"></div>
 
     <br><br>
@@ -46,13 +48,13 @@
                     <img src="..\icons\paymentImages\suitcase.png">
                 </div>
                 <div>Order No.</div>
-                <div >DLP76284345710</div>
+                <div>DLP76284345710</div>
                 <div></div>
             </div>
         </div>
 
         <div id="cont">
-            <div class="f4"> 
+            <div class="f4">
                 <div>Abhishek B</div>
                 <div>See Prescription</div>
             </div>
@@ -68,7 +70,7 @@
             </div>
             <hr>
 
-            <div class="f5"> 
+            <div class="f5">
                 <div>Amount to be Paid</div>
                 <div>350 Rs</div>
             </div>
@@ -84,6 +86,11 @@
 </html>
 <script>
     function redirect_back(){
-    window.location=("../home/home.html");
+    window.location=("../Send/Send.html");
     }
+
+</script>
+<script type="module">
+    import timer from '../component/displayTime/time.js'
+    timer();
 </script>

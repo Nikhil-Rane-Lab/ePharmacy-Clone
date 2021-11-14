@@ -5,6 +5,9 @@ let bottomStructure = document.querySelector('.structureBottom');
 topStructure.innerHTML = structureTop();
 bottomStructure.innerHTML = structureBottom();
 
+import timer from '../component/displayTime/time.js'
+timer();
+
 let home = document.querySelector('#home');
 home.addEventListener('click', () => {
 	window.location.href = '../home/home.html';
