@@ -36,6 +36,11 @@ function colorChangeToFaint()
     btn.style.backgroundColor = "#6889C5B2";
 }
 
+function back()
+{
+    window.location=("../login/login.html");
+}
+
 var pro = document.getElementById("pro");
 var fdiv = document.getElementById("o1a");
 
