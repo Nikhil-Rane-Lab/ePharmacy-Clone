@@ -1,8 +1,12 @@
 package com.ePharmacy.ePharmacy_App.entity;
 
 
+import lombok.Data;
+
 import javax.persistence.*;
 
+@Data
+@Entity
 public class Cart_Item {
 
     @Id
