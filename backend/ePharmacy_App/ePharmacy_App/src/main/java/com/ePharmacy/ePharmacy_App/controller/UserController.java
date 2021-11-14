@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "*")
 public class UserController
 {
     @Autowired
@@ -22,7 +23,7 @@ public class UserController
     }
 
     @GetMapping("/userservice/users/{id}")
-    public User getSingleUser(@PathVariable("id") Integer userId)
+    public User getSingleUser(@PathVariable("id") Long userId)
     {
         User user = userService.getSingleUser(userId);
         return user;
