@@ -1,0 +1,149 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F6FAFD;
+}
+
+.left-top
+{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#o1a{
+    width: 400; height: 30px; background-color: white; border: 1px solid blue; visibility: hidden;
+}
+
+#pro{
+    width: 0px; height: 26px; background-color: rgb(1, 184, 184);
+}
+
+.f1
+{
+    display: flex;
+    flex-direction: row;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 10px;
+}
+
+.f2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.f2a
+{
+    margin-left: 0px;
+    margin: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.f2a input{
+    font-size: 40px;
+    padding: 8px;
+    text-align: center;
+    margin: 4px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(27, 173, 218);
+}
+
+.a1
+{
+    width: 50%;
+    font-size: 18px;
+}
+
+.f3
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.f3 > div
+{
+    margin: 5px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+}
+
+.f2 > button
+{
+    background-color: #6889C5B2;
+    width: 346px;
+    height: 46px;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+}
+
+#gap
+{ 
+    height: 30px
+}
+
+#a2
+{
+    font-weight: 700;
+    color: red;
+}
+
+button
+{
+    margin-top: 500px;
+    background: #6889C5B2;
+    color: white;
+    font-size: 18px;
+}
+
+#outermost{
+    margin: 15px;
+}
+
+#flex4{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    font-weight: bold;
+    align-items: top;
+}
+
+#p1{
+    margin-left: 50px;
+    font-weight: 900px;
+    width: 330px;
+    font-family: sans-serif;
+}
+
+#flex4 > div:nth-child(1)
+{
+    margin-left: 20px;
+    margin: 5px;
+    align-items: top;
+    padding-top: 3px;
+}
+
+#flex4 > div:nth-child(2)
+{
+    margin-left: 15px;
+    margin: 5px;
+    padding-left: 15px;
+}
+
+#flex4 > div:nth-child(3)
+{
+    margin: 5px;
+}
+
+#top-contain{
+    margin: 10px;
+}
