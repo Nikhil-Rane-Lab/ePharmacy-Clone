@@ -3,6 +3,9 @@ var timer = document.getElementById("timer");
 
 function decTimer()
 {
+    if(time==0){
+        window.location=("");
+    }
     if(time > 0)
         timer.textContent = --time;
 

@@ -21,7 +21,7 @@
            
         </div>
         <div id="cartHead">
-            <img  src="../icons/cart/backArrow.svg" alt="">  <p>My Cart</p>
+            <input type="image" name="btn_image" id="back_btn"  src="../icons/left-arrow.svg" onclick="redirect_back()"/> <p>My Cart</p>
         </div>
 
         <div id="cartBody">
@@ -111,3 +111,8 @@
 
 <script src="cartmodule.js" type="module" ></script>
 <script src="cart.js"></script>
+<script>
+    function redirect_back(){
+    window.location=("../product-display/product-display.html");
+    }
+</script>

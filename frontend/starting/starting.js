@@ -39,7 +39,3 @@ function getting_anime(){
    times++;
   // dis.style.margin=`0px 0px 0px amtpx`;
 }
-function redirect_to_signin(){
-
-window.location=("../login/login.html");
-}

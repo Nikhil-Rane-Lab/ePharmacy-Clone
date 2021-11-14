@@ -40,7 +40,7 @@
         <div class="search-bar">
             <form action="" class="dis-flex-col">
                 <input class="deliver-to" type="text" placeholder="Deliver To">
-                <input class="product-name" type="text" placeholder="Eg: Sinarest or Dolo 250">
+                <input class="product-name" type="text" placeholder="Eg: Sinarest or Dolo 250" onclick="redirect_to_product_search()">
             </form>
         </div>
 
@@ -161,3 +161,10 @@
 </html>
 
 <script src="home.js" type="module"></script>
+<script>
+
+function redirect_to_product_search(){
+	
+	window.location=("../searching_ordering_meds/searching_ordering_meds.html");
+}
+</script>

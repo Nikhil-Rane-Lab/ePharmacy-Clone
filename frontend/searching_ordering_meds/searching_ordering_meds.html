@@ -6,45 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>search</title>
    
+   
+    <link rel="stylesheet" href="search_order_meds.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../component/outerStructure/structure.css">    
-    <link rel="stylesheet" href="search_order_meds.css">
+    <link rel="stylesheet" href="../component/outerStructure/structure.css">
+      
 </head>
 <body>
     <div class="main-outerDiv">
         <div class="structureTop">        </div>
 
         <div class="diagnost-text dis-flex">
-            <img src="../icons/left-arrow.svg" alt="">
+            <input type="image" name="btn_image" id="back_btn"  src="../icons/left-arrow.svg" onclick="redirect_back()"/>
+            <!-- <img src="../icons/left-arrow.svg" alt=""> -->
             <div class="main-text">
                 Search
             </div>
         </div>
 
         <div class="lab-test">
-      
             <input type="text" id="myInput"  placeholder="Eg: Sinarest or Dolo 250" required minlength="1"/>
-       
         </div>
 
-<<<<<<< HEAD
-    </div> -->
-    <!-- <div id="search_bar_ordermeds"> -->
-
-        <div class="search-bar">
-            <form action="" class="dis-flex-col-meds">
-               
-                <input class="search-name" type="text" placeholder="Eg: Sinarest or Dolo 250">
-            </form>
-        </div>
-        <div class="shop_by_categort_disp">
-            <div class="shop_by_categort_disp" id="med_text" >
-=======
         <div class="health-article category">
             <div class="category_text" id="med_text" >
->>>>>>> df6bb75f19900d5f8d4e99b78641c78bbb2fb920
                 Shop by catergory
             </div>
             <div class="recommended_title dis-flex">
@@ -67,8 +54,9 @@
                 </div>
             </div>
         </div>
-        <div class="shop_by_trending_disp">
-            <div class="shop_by_trending_disp" id="med_text" >
+
+        <div class="trending-product category">
+            <div class="category_text" id="med_text" >
                 Trending products
             </div>
             <div class="recommended_trending_disp_title dis-flex">
@@ -134,3 +122,8 @@
 </html>
 
 <script src="search_ordering_meds.js" type="module"></script>
+<script>
+    function redirect_back(){
+    window.location=("../home/home.html");
+    }
+</script>

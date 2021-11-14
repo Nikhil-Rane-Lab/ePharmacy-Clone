@@ -54,6 +54,10 @@ function validateMobile(){
      document.getElementById("phoneError").style.color = 'red';
      document.getElementById("loginContinue").disabled = "true";
      document.getElementById("loginContinue").style.background = "#9ba2af";
+
+    }
+    if(document.getElementById("loginContinue").click="true"){
+      window.location=("../OTP/OTP.html");
     }
 
 }
