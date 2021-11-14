@@ -17,8 +17,8 @@ public class User
 {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer userId;
-    private Integer mobileNumber;
+    private Long userId;
+    private Long mobileNumber;
 
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "cart_id")
