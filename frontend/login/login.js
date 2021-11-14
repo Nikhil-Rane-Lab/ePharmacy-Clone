@@ -7,10 +7,10 @@ var inputBorder = document.getElementById('mobileInput');
 inputId.addEventListener('input',validateMobile);
 //inputId.addEventListener('change',validateMobile1);
 
-  
-  document.getElementById("loginContinue").addEventListener('click', ()=>{
-    window.location = ("../OTP/OTP.html");
-  })
+  //
+  // document.getElementById("loginContinue").addEventListener('click', ()=>{
+  //   window.location = ("../OTP/OTP.html");
+  // })
 
  
   
@@ -62,3 +62,27 @@ function validateMobile(){
     }
 
 }
+
+let phoneForm = document.querySelector('#phone_input');
+phoneForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    let phoneNo = document.querySelector('#phoneNumber').value;
+    console.log('phoneNo:', phoneNo);
+    let userData = {
+        mobileNumber: phoneNo
+    };
+    let res = await fetch('http://localhost:8080/userservice/users', {
+        method: 'POST',
+        body: JSON.stringify(userData),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    });
+    let data = await res.json();
+    console.log('data:', data);
+
+    if (localStorage.getItem('userDetail') === null) {
+        localStorage.setItem('userDetail', JSON.stringify({}));
+    }
+    localStorage.setItem('userDetail', JSON.stringify(data));
+});
