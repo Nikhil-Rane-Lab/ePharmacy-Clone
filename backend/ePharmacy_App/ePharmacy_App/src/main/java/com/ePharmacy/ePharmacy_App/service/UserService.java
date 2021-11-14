@@ -24,7 +24,7 @@ public class UserService
         return userList;
     }
 
-    public User getSingleUser(Integer userId)
+    public User getSingleUser(Long userId)
     {
         Optional<User> user = userRepository.findById(userId);
 
