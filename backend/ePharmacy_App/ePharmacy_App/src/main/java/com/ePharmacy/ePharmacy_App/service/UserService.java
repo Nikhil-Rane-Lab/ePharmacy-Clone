@@ -1,8 +1,10 @@
 package com.ePharmacy.ePharmacy_App.service;
 
 
+import com.ePharmacy.ePharmacy_App.entity.Cart;
 import com.ePharmacy.ePharmacy_App.entity.User;
 
+import com.ePharmacy.ePharmacy_App.repository.CartRepository;
 import com.ePharmacy.ePharmacy_App.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -17,6 +19,9 @@ public class UserService
 {
     @Autowired
     UserRepository userRepository;
+
+    @Autowired
+    CartRepository cartRepository;
 
     public List<User> getAllUsers()
     {
@@ -36,7 +41,13 @@ public class UserService
 
     public User addUser(User user)
     {
+
+        Cart cart = new Cart();
+        user.setCart(cart);
+        cart.setUser(user);
+        cartRepository.save(cart);
         userRepository.save(user);
+
         return user;
     }
 
