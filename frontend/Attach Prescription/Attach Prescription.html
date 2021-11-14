@@ -8,9 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="..\component\outerStructure\structure.css">
-    <link rel="stylesheet" href="Attach Prescription.css">
-
-    <title>Prescription Order</title>
+    <link rel="stylesheet" href="Attach Prescription.css"> 
+    <link rel="stylesheet" href="../component/clock/clock.js"> 
+    <title>Attach Prescription</title>
 </head>
 
 <body>
@@ -31,7 +31,7 @@
     <br>
 
     <div id="flex4">
-        <div> <input type="image" name="btn_image" id="back_btn"  src="../icons/left-arrow.svg" onclick="redirect_back()"/> </div>
+        <div><img src="..\icons\paymentImages\back_arrow.png"></div>
         <div id="p1">Attach Prescription</div>
     </div>
 
@@ -59,9 +59,15 @@
                     <div id="d2"><img src="..\icons\paymentImages\imm.png"></div>  
                 </div>
                 <div id = "d3"><span id="s1"> Gallery Upload </span><br> <span id="s2"> Select prescription from gallery </span></div>
+                
                 <div id = "d4">
                     <div id="d5"><img src="..\icons\paymentImages\right_arrow.png"></div>  
                 </div>
+            </div>
+
+            <br>
+            <div id="file">
+                <input type="file">
             </div>
 
             </br>
@@ -101,8 +107,5 @@
 </body>
 </html>
 <script src="Attach Prescription.js"></script>
-<script>
-    function  redirect_back(){
-    window.location=("../cart/cart.html");
-  }
-</script>
+<script src="../component/clock/clock.js"></script>
+
