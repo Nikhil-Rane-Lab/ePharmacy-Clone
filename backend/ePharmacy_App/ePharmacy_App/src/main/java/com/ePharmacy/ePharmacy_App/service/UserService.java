@@ -41,12 +41,13 @@ public class UserService
 
     public User addUser(User user)
     {
-        userRepository.save(user);
 
         Cart cart = new Cart();
-        cart.setCart_id(Long.valueOf(user.getUserId()));
+        user.setCart(cart);
+        cart.setUser(user);
         cartRepository.save(cart);
-        user.getCart().setCart_id(cart.getCart_id()); ;
+        userRepository.save(user);
+
         return user;
     }
 

@@ -1,7 +1,11 @@
 package com.ePharmacy.ePharmacy_App.entity;
 
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.Data;
+import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 import java.util.List;
@@ -14,7 +18,9 @@ public class Cart {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long cart_id;
 
-    @OneToOne
+
+    @JsonBackReference
+    @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "user_id")
     private User user;
 
