@@ -12,7 +12,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../component/outerStructure/structure.css">
 </head>
-
 <body>
     <div class="main-outerDiv">
         <div class="structureTop"> </div>
@@ -20,7 +19,8 @@
         <div class="top-wrapper-div">
             <div class="top-navbar dis-flex">
                 <div class="diagnost-text dis-flex">
-                    <img src="../icons/left-arrow.svg" alt="">
+                    <input type="image" name="btn_image" id="back_btn"  src="../icons/left-arrow.svg" onclick="redirect_back()"/>
+                </br>
                     <div class="main-text">
                         Ameliorate
                     </div>
@@ -176,7 +176,7 @@
                 <img class="nav-icon cart" src="../icons/cart-icon.svg" alt="Cart-icon">
 
             </div>
-            <div class="go-to-cart">
+            <div class="go-to-cart" onclick="redirect_to_cart()">
                 <div>Go To Cart</div>
             </div>
         </div>
@@ -190,6 +190,14 @@
 function redirect_to_searching_meds(){    
     window.location=("../searching_ordering_meds/searching_ordering_meds.html");
 }
+
+    function redirect_back(){
+    window.location=("../searching_ordering_meds/searching_ordering_meds.html");
+    }
+function redirect_to_cart(){
+    window.location=("../cart/cart.html");
+}
+
 </script>
 
 

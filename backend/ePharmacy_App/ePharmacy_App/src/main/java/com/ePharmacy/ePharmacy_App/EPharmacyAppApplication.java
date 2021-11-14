@@ -26,4 +26,14 @@ public class EPharmacyAppApplication {
 
 	}
 
+	@Bean
+	public WebMvcConfigurer configurer(){
+		return new WebMvcConfigurer() {
+			@Override
+			public void addCorsMappings(CorsRegistry registry) {
+				registry.addMapping("/*").allowedOrigins("*");
+			}
+		};
+	}
+
 }

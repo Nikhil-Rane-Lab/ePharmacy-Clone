@@ -3,6 +3,9 @@ var timer = document.getElementById("timer");
 
 function decTimer()
 {
+    if(time==0){
+        window.location=("");
+    }
     if(time > 0)
         timer.textContent = --time;
 
@@ -55,6 +58,6 @@ function proInc()
     pro.style.width = `${p}`+ "px";
 
     if(p == 380)
-        window.location = "a.com";
+    window.location=("../home/home.html");
 }
 

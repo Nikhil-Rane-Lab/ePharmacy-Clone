@@ -31,7 +31,7 @@
     <br>
 
     <div id="flex4">
-        <div><img src="..\icons\paymentImages\back_arrow.png"></div>
+        <div> <input type="image" name="btn_image" id="back_btn"  src="../icons/left-arrow.svg" onclick="redirect_back()"/> </div>
         <div id="p1">Attach Prescription</div>
     </div>
 
@@ -101,4 +101,8 @@
 </body>
 </html>
 <script src="Attach Prescription.js"></script>
-
+<script>
+    function  redirect_back(){
+    window.location=("../cart/cart.html");
+  }
+</script>

@@ -20,7 +20,7 @@
         <div class="structureTop"> </div>
 
         <div class="diagnost-text dis-flex">
-            <img src="../icons/left-arrow.svg" alt="">
+            <input type="image" name="btn_image" id="back_btn"  src="../icons/left-arrow.svg" onclick="redirect_back()"/>
             <div class="main-text">
                 Diagnostics
             </div>
@@ -253,3 +253,8 @@
 <script src="diagnostic.js" type="module"></script>
 
 
+<script>
+    function redirect_back(){
+        window.location=("../home/home.html");
+    }
+</script>

@@ -30,3 +30,9 @@ diagnostic.addEventListener('click', () => {
 // }
 
 
+<<<<<<< HEAD
+	setTimeout(timer,1000 );
+}
+
+=======
+>>>>>>> 353a28d3e84585f60449342f0c91302e665fda08

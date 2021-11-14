@@ -31,7 +31,7 @@
 
     <br>
     <div id="flex4">
-        <div><img src="..\icons\paymentImages\whiteArrow.png"></div>
+        <div><input type="image" name="btn_image" id="back_btn"  src="../icons/left-arrow.svg" onclick="redirect_back()"/></div>
         <div id="p1"> Send </div>
         <div><img src="..\icons\paymentImages\question.png"></div>
     </div>
@@ -70,7 +70,11 @@
 </body>
 
 </html>
-
+<script>
+    function  redirect_back(){
+    window.location=("../Select Payment/Select Payment.html");
+  }
+</script>
 <script src="" type="module">
     import timer from '../component/displayTime/time.js';
     timer();
