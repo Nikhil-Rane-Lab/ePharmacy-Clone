@@ -66,4 +66,15 @@ public class CartItemService {
 
     }
 
+    public String deleteCartItem(Long cartItemId){
+      try {
+          cartItemRepository.deleteById(cartItemId);
+          return "Sucessfully Deleted";
+      }
+      catch (Exception e){
+          System.out.println(e);
+           return "Error in Deleting";
+      }
+    }
+
 }

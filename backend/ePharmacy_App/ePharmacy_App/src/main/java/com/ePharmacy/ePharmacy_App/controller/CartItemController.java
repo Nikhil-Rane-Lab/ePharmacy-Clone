@@ -28,4 +28,9 @@ public class CartItemController {
        return  cartItemService.getItemsinCart(userId);
    }
 
+   @DeleteMapping("/delete/Item/{cart_item_id}")
+   public String deleteCartItem(@PathVariable("cart_item_id")  Long cartItemId){
+    return cartItemService.deleteCartItem(cartItemId);
+   }
+
 }
