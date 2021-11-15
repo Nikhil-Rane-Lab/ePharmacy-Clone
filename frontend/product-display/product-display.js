@@ -11,12 +11,12 @@ async function showCharacter() {
 	let res = await fetch(`http://localhost:8080/product`);
 	let data = await res.json();
 
-	console.log('insertDiv:', insertDiv);
+	// console.log('insertDiv:', insertDiv);
 	let found = false;
 	data.forEach((e) => {
 		if (e.brand_name == searchKey || e.product_name == searchKey) {
 			found = true;
-			console.log('yes');
+			// console.log('yes');
 			let productDiv = document.createElement('div');
 			productDiv.classList.add('single-product');
 			productDiv.classList.add('dis-flex');
@@ -36,9 +36,9 @@ async function showCharacter() {
             <div class="product-prescription">*Prescription ${prescription(e.prescription_required)} required</div>
             <button class="add-to-cart">Add To Cart</button>
         </div>`;
-			console.log('productDiv:', productDiv);
+			// console.log('productDiv:', productDiv);
 			insertDiv.append(productDiv);
-			console.log('insertDiv:', insertDiv);
+			// console.log('insertDiv:', insertDiv);
 		}
 	});
 
@@ -68,3 +68,8 @@ function prescription(req) {
 
 import timer from '../component/displayTime/time.js';
 timer();
+
+let keyword = document.querySelector('.main-text');
+// let w = localStorage.getItem('searchKeyword');
+keyword.innerText = JSON.parse(localStorage.getItem('searchKeyword'));
+

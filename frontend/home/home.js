@@ -13,6 +13,11 @@ diagnostic.addEventListener('click', () => {
 	window.location.href = '../diagnostic/diagnostic.html';
 });
 
+let cart = document.querySelector('.cart');
+cart.addEventListener('click', () => {
+	window.location.href = '../cart/cart.html';
+});
+
 // let focus = document.querySelector('.deliver-to');
 // let modal = document.querySelector('.modal');
 // let closeModal = document.querySelector('#closeModal');

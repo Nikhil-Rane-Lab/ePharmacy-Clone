@@ -39,3 +39,8 @@ enter_btn.addEventListener('keyup', function(event) {
 function redirect_to_displaycart() {
 	window.location = '../product-display/product-display.html';
 }
+
+let back = document.querySelector('.diagnost-text>img');
+back.addEventListener('click', () => {
+	window.location.href = '../home/home.html';
+});
