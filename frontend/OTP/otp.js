@@ -31,6 +31,12 @@ function colorChangeToFaint() {
 
 var pro = document.getElementById('pro');
 var fdiv = document.getElementById('o1a');
+function back() {
+	window.location = '../login/login.html';
+}
+
+// var pro = document.getElementById("pro");
+// var fdiv = document.getElementById("o1a");
 
 function showAnimation() {
 	fdiv.style.visibility = 'visible';
@@ -74,8 +80,6 @@ function timerClock() {
 
 setInterval(timerClock, 1000);
 
-
 alert('Your OTP is 895314');
-
 
 // setTimeout(alert, 2000);
