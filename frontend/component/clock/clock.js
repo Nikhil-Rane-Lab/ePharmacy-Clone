@@ -19,7 +19,7 @@ function timerClock()
 	let t_insert = document.querySelector('.left-top');
 	t_insert.innerHTML = t_str;	
 
-	setTimeout(timer,1000 );
+	// setTimeout(timer,1000 );
 }
 
 setInterval(timerClock, 1000);

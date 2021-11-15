@@ -147,3 +147,11 @@ button
 #top-contain{
     margin: 10px;
 }
+
+
+.wrong-otp{
+    display: none;
+    text-align: center;
+    color: red;
+    font-size: 24px;
+}

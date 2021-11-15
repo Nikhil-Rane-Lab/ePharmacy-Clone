@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="..\component\outerStructure\structure.css">
     <link rel="stylesheet" href="otp.css">
-    <link rel="stylesheet" href="../component/clock/clock.css"> 
-    
+    <link rel="stylesheet" href="../component/clock/clock.css">
+
 
     <title>Attach Prescription</title>
 </head>
@@ -39,19 +40,19 @@
 
     <div id="outermost">
         <div class="f1">
-            <div>Enter the 6-digit OTP sent to 
-                +917349508129</div>
+            <div>Enter the 6-digit OTP sent to
+                +91 <span id="mobNo">7349508129</span></div>
         </div>
 
         <div class="f2a">
-            <p><input class="a1" id="t1" type="password"></input></p>
-            <p><input class="a1" id="t2" type="password"></input></p>
-            <p><input class="a1" id="t3" type="password"></input></p>
-            <p><input class="a1" id="t4" type="password"></input></p>
-            <p><input class="a1" id="t5" type="password"></input></p>
-            <p><input class="a1" id="t6" type="password"></input></p>
+            <p><input class="a1" id="t1" type="password" maxlength="1"></input></p>
+            <p><input class="a1" id="t2" type="password" maxlength="1"></input></p>
+            <p><input class="a1" id="t3" type="password" maxlength="1"></input></p>
+            <p><input class="a1" id="t4" type="password" maxlength="1"></input></p>
+            <p><input class="a1" id="t5" type="password" maxlength="1"></input></p>
+            <p><input class="a1" id="t6" type="password" maxlength="1"></input></p>
         </div>
-
+        <div class="wrong-otp">Please Enter Valid OTP</div>
         <div class="f3">
             <div>Didn’t receive the code? <span id="a2"> Resend </span></div>
             <div id="timer">0:30</div>
@@ -61,6 +62,7 @@
             <div> Get OTP via call </div>
         </div>
 
+
         <div id="gap"></div>
 
         <div id="o1a">
@@ -69,17 +71,17 @@
         </div>
 
         <div class="f2">
-            <button onclick="showAnimation()" id="btn"> Continue </button>
+            <button  id="btn"> Continue </button>
         </div>
     </div>
 </body>
+
 </html>
 
 <script src="otp.js"></script>
 <script>
-    function redirect_back(){
-    window.location=("../login/login.html");
+    function redirect_back() {
+        window.location = ("../login/login.html");
     }
 </script>
 <script src="../component/clock/clock.js"></script>
-
