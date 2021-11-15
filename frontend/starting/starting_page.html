@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="starting_page.css">
 </head>
+
 <body>
     <div class="slider">
         <div class="slides">
@@ -17,83 +19,73 @@
             <input type="radio" name="radio-btn" />
             <input type="radio" name="radio-btn" />
             <div id="slide" class="first">
-              <div id="inside_part">
-                  <img src="../icons/starting_pages/Group 154.jpg"/>
-                  <h2>Medicines at your fingertips</h2>
-                  <p>Search or Upload your prescription <br>
-                    to order your medicines</p>
+                <div id="inside_part">
+                    <img src="../icons/starting_pages/Group 154.jpg" />
+                    <h2>Medicines at your fingertips</h2>
+                    <p>Search or Upload your prescription <br>
+                        to order your medicines</p>
                     <div id="tab1_2">
                         <div id="navigator-manual">
                             <label for="radio1" id="radio1" class="manual-btn"></label>
                             <label for="radio2" id="radio2" class="manual-btn"></label>
                             <label for="radio3" id="radio3" class="manual-btn"></label>
-                           
+
                         </div>
-                        <div >
+                        <div>
                             <input type="button" id="next-btn" value="NEXT" onclick="getting_anime()">
-                            
-                            
                         </div>
-                    
-              </div>
-             
-            
-                
-            </div>
+                    </div>
+                </div>
             </div>
             <div id="slide">
                 <div id="inside_part">
-                    <img src="../icons/starting_pages/Group 181.jpg"/>
+                    <img src="../icons/starting_pages/Group 181.jpg" />
                     <h2>Consult Doctor at home</h2>
                     <p>Cannot visit doctor.<br>
                         No worries consult right <br>
                         from the app</p>
-                        <div id="tab1_2">
-                           
-                            <div id="navigator-manual">
-                                <label for="radio1" class="manual-btn"></label>
-                                <label for="radio2" class="manual-btn"></label>
-                                <label for="radio3" class="manual-btn"></label>
-                               
-                            </div>  
-                            <div>
-                                <input type="button" id="next-btn" value="NEXT" onclick="getting_anime()">
-                                
-                                
-                            </div>
-                        
-                            
+                    <div id="tab1_2">
+
+                        <div id="navigator-manual">
+                            <label for="radio1" class="manual-btn"></label>
+                            <label for="radio2" class="manual-btn"></label>
+                            <label for="radio3" class="manual-btn"></label>
+
                         </div>
+                        <div>
+                            <input type="button" id="next-btn" value="NEXT" onclick="getting_anime()">
+                        </div>
+                    </div>
                 </div>
-               
+
             </div>
             <div id="slide">
                 <div id="inside_part">
-                <img src="../icons/starting_pages/Group 156.jpg"/>
+                    <img src="../icons/starting_pages/Group 156.jpg" alt=""/>
                     <h2>Lightning Fast Delivery</h2>
                     <p>Relax we will get all your medicines <br>
                         delivered at your door in hours</p>
-                        <div id="last_part">
-               
-                          
-                              
-                                <input type="button" id="get_started-btn" value="GET STARTED" onclick="redirect_to_signin()">
-                        
-                            
-                        </div>
+                    <div id="last_part">
+
+
+
+                        <input type="button" id="get_started-btn" value="GET STARTED" onclick="redirect_to_signin()">
+
+
+                    </div>
+                </div>
+
             </div>
-            
-        </div>
         </div>
     </div>
-   
-</body>
-</html>
-<script src="starting.js" type="module"></script>
-<script>
-    function redirect_to_signin(){
 
-window.location=("../login/login.html");
-}
+</body>
+
+</html>
+<script src="starting.js" ></script>
+<script>
+    function redirect_to_signin() {
+        window.location = ("../login/login.html");
+    }
 
 </script>

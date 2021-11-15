@@ -97,5 +97,5 @@ function enableButton() {
 	document.getElementById('lbtn').style.color = 'white';
 }
 
-import timer from '../component/displayTime/time.js';
-timer();
+// import timer from '../component/displayTime/time.js';
+// timer();

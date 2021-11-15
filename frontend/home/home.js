@@ -5,7 +5,7 @@ let bottomStructure = document.querySelector('.structureBottom');
 topStructure.innerHTML = structureTop();
 bottomStructure.innerHTML = structureBottom();
 
-import timer from '../component/displayTime/time.js'
+import timer from '../component/displayTime/time.js';
 timer();
 
 let diagnostic = document.querySelector('#diagnostic');
@@ -26,13 +26,8 @@ diagnostic.addEventListener('click', () => {
 // 	modal.style.display = "block";
 // });
 // if(modal.style.display == "block"){
-	
+
 // }
 
-
-<<<<<<< HEAD
-	setTimeout(timer,1000 );
-}
-
-=======
->>>>>>> 353a28d3e84585f60449342f0c91302e665fda08
+// setTimeout(timer,1000 );
+// }

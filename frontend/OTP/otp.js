@@ -1,68 +1,55 @@
 var time = 30;
-var timer = document.getElementById("timer");
+var timer = document.getElementById('timer');
 
-function decTimer()
-{
-    if(time > 0)
-        timer.textContent = --time;
+function decTimer() {
+	if (time > 0) timer.textContent = --time;
 
-    var t1 = document.getElementById("t1").value;
-    var t2 = document.getElementById("t2").value;
-    var t3 = document.getElementById("t3").value;
-    var t4 = document.getElementById("t4").value;
-    var t5 = document.getElementById("t5").value;
-    var t6 = document.getElementById("t6").value;
-    
-    if( (t1 != "") && (t2 != "") && (t3 != "") && (t4 != "") && (t5 != "") && (t6 != "") )
-        colorChangeToDark();
-    else
-        colorChangeToFaint();
+	var t1 = document.getElementById('t1').value;
+	var t2 = document.getElementById('t2').value;
+	var t3 = document.getElementById('t3').value;
+	var t4 = document.getElementById('t4').value;
+	var t5 = document.getElementById('t5').value;
+	var t6 = document.getElementById('t6').value;
 
-    progress();
-        
+	if (t1 != '' && t2 != '' && t3 != '' && t4 != '' && t5 != '' && t6 != '') colorChangeToDark();
+	else colorChangeToFaint();
+
+	progress();
 }
 
 setInterval(decTimer, 1000);
 
-function colorChangeToDark()
-{
-    let btn = document.getElementById("btn");
-    btn.style.backgroundColor = "#426BB6";
+function colorChangeToDark() {
+	let btn = document.getElementById('btn');
+	btn.style.backgroundColor = '#426BB6';
 }
 
-function colorChangeToFaint()
-{
-    let btn = document.getElementById("btn");
-    btn.style.backgroundColor = "#6889C5B2";
+function colorChangeToFaint() {
+	let btn = document.getElementById('btn');
+	btn.style.backgroundColor = '#6889C5B2';
 }
 
-var pro = document.getElementById("pro");
-var fdiv = document.getElementById("o1a");
+var pro = document.getElementById('pro');
+var fdiv = document.getElementById('o1a');
 
-function showAnimation()
-{
-    fdiv.style.visibility = "visible";
-    setInterval(proInc ,1000);
+function showAnimation() {
+	fdiv.style.visibility = 'visible';
+	setInterval(proInc, 1000);
 }
 
 var p = 1;
 
-function proInc()
-{
-    p += 50;
+function proInc() {
+	p += 50;
 
-    if(p > 400)
-        p = 380;
+	if (p > 400) p = 380;
 
-    pro.style.width = `${p}`+ "px";
+	pro.style.width = `${p}` + 'px';
 
-    if(p == 380)
-        window.location=("../home/home.html");
+	if (p == 380) window.location = '../home/home.html';
 }
 
-
-function timerClock() 
-{
+function timerClock() {
 	var currentTime = new Date();
 	var hours = currentTime.getHours();
 	var minutes = currentTime.getMinutes();
@@ -80,10 +67,15 @@ function timerClock()
 		t_str += 'AM';
 	}
 	let t_insert = document.querySelector('.left-top');
-	t_insert.innerHTML = t_str;	
+	t_insert.innerHTML = t_str;
 
-	setTimeout(timer,1000 );
+	setTimeout(timer, 1000);
 }
 
 setInterval(timerClock, 1000);
 
+
+alert('Your OTP is 895314');
+
+
+// setTimeout(alert, 2000);

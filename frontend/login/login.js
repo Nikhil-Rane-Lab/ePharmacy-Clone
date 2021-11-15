@@ -7,9 +7,9 @@ inputId.addEventListener('input', validateMobile);
 
 
 
-// document.getElementById('loginContinue').addEventListener('click', () => {
-// 	window.location = '../OTP/OTP.html';
-// });
+document.getElementById('loginContinue').addEventListener('click', () => {
+	window.location = '../OTP/OTP.html';
+});
 
 
 function validateMobile() {
@@ -58,7 +58,7 @@ function validateMobile() {
      document.getElementById("loginContinue").style.background = "#9ba2af";
 
     }
-    if(document.getElementById("loginContinue").click="true"){
+    if(document.getElementById("loginContinue").click=="true"){
       window.location=("../OTP/OTP.html");
     }
 

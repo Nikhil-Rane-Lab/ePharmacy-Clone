@@ -14,18 +14,6 @@ home.addEventListener('click', () => {
 	window.location.href = '../home/home.html';
 });
 
-var enter_btn = document.getElementById('myInput');
-
-enter_btn.addEventListener('keyup', function(event) {
-	if (event.keyCode === 13 && enter_btn.value.length >= 1) {
-		event.preventDefault();
-		redirect_to_displaycart();
-	}
-});
-function redirect_to_displaycart() {
-	window.location = '../product-display/product-display.html';
-}
-
 let form = document.querySelector('#search-med');
 form.addEventListener('submit', (e) => {
 	e.preventDefault();
@@ -39,3 +27,15 @@ form.addEventListener('submit', (e) => {
 
 import timer from '../component/displayTime/time.js';
 timer();
+
+var enter_btn = document.getElementById('myInput');
+
+enter_btn.addEventListener('keyup', function(event) {
+	if (event.keyCode === 13 && enter_btn.value.length >= 1) {
+		event.preventDefault();
+		redirect_to_displaycart();
+	}
+});
+function redirect_to_displaycart() {
+	window.location = '../product-display/product-display.html';
+}
