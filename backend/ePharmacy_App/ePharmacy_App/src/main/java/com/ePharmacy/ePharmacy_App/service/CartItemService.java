@@ -56,4 +56,25 @@ public class CartItemService {
         return "Item added in Cart";
     }
 
+    public List<Cart_Item> getItemsinCart(Long userId){
+
+        User user = userService.getSingleUser(userId);
+
+        Long cartId = user.getCart().getCart_id();
+
+        return  user.getCart().getCart_items();
+
+    }
+
+    public String deleteCartItem(Long cartItemId){
+      try {
+          cartItemRepository.deleteById(cartItemId);
+          return "Sucessfully Deleted";
+      }
+      catch (Exception e){
+          System.out.println(e);
+           return "Error in Deleting";
+      }
+    }
+
 }

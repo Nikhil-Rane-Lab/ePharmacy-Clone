@@ -23,6 +23,14 @@ public class CartItemController {
 
    }
 
+   @GetMapping("/cartItems/user/{userid}")
+   public  List<Cart_Item> getItemsinCart(@PathVariable("userid") Long userId){
+       return  cartItemService.getItemsinCart(userId);
+   }
 
+   @DeleteMapping("/delete/Item/{cart_item_id}")
+   public String deleteCartItem(@PathVariable("cart_item_id")  Long cartItemId){
+    return cartItemService.deleteCartItem(cartItemId);
+   }
 
 }

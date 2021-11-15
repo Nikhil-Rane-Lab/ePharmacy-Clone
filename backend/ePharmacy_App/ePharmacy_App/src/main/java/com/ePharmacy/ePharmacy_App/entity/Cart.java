@@ -24,6 +24,7 @@ public class Cart {
     @JoinColumn(name = "user_id")
     private User user;
 
+    @JsonBackReference
     @OneToMany(mappedBy = "cart", fetch = FetchType.EAGER)
     private List<Cart_Item> cart_items;
 
