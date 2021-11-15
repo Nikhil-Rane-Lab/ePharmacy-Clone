@@ -1,22 +1,28 @@
 package com.ePharmacy.ePharmacy_App.controller;
 
 
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RestController;
+import com.ePharmacy.ePharmacy_App.entity.Cart_Item;
+import com.ePharmacy.ePharmacy_App.entity.Product;
+import com.ePharmacy.ePharmacy_App.service.CartItemService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @CrossOrigin(origins = "*")
 public class CartItemController {
 
+    @Autowired
+    CartItemService cartItemService;
 
-   @PostMapping("/addtocart/{userid}/{productid}/{quantity}")
-   public String addtoCart(@PathVariable("userid") Long userId , @PathVariable("productId") Long prodId, @PathVariable("quantity") int qty ){
+   @PostMapping("/addtocart/users/{userid}/product/{pdid}")
+   public String addtoCart(@RequestBody Cart_Item cartItem, @PathVariable("userid") Long userId , @PathVariable("pdid") Long productId ){
 
+      return  cartItemService.addtoCart(userId,productId, cartItem.getQuantity());
 
-
-      return "product added";
    }
+
+
 
 }

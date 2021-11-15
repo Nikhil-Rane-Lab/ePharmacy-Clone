@@ -20,16 +20,17 @@ public class CartItemService {
     CartItemRepository cartItemRepository;
 
     @Autowired
-    UserRepository userRepository;
+    UserService userService;
 
     @Autowired
     ProductRepository productRepository;
 
     public String addtoCart(Long userId, Long prodId , int qty){
 
-        User user = userRepository.findById(userId).get();
+        User user = userService.getSingleUser(userId);
 
         Product product = productRepository.findById(prodId).get();
+
 
         Cart cart = user.getCart();
 
@@ -41,12 +42,18 @@ public class CartItemService {
                cartItem.setQuantity(qty);
                cartItem.setTotal(product.getPrice()*qty);
                cartItemRepository.save(cartItem);
+                return "Item added in Cart";
             }
         }
 
-//        Cart_Item cartItem
+        Cart_Item cartItem = new Cart_Item();
+        cartItem.setQuantity(qty);
+        cartItem.setTotal(product.getPrice()*qty);
+        cartItem.setProduct(product);
+        cartItem.setCart(cart);
+        cartItemRepository.save(cartItem);
 
-        return "ok";
+        return "Item added in Cart";
     }
 
 }
