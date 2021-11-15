@@ -56,4 +56,14 @@ public class CartItemService {
         return "Item added in Cart";
     }
 
+    public List<Cart_Item> getItemsinCart(Long userId){
+
+        User user = userService.getSingleUser(userId);
+
+        Long cartId = user.getCart().getCart_id();
+
+        return  user.getCart().getCart_items();
+
+    }
+
 }

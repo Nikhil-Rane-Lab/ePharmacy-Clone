@@ -23,6 +23,9 @@ public class CartItemController {
 
    }
 
-
+   @GetMapping("/cartItems/user/{userid}")
+   public  List<Cart_Item> getItemsinCart(@PathVariable("userid") Long userId){
+       return  cartItemService.getItemsinCart(userId);
+   }
 
 }
