@@ -11,7 +11,7 @@ import java.util.List;
 public interface CartItemRepository  extends JpaRepository<Cart_Item,Long> {
 
 
-    @Query(value ="SELECT * from cartitems cl where cl.cart_id=?1",nativeQuery = true)
+    @Query(value ="SELECT * from cart_item cl where cl.cart_id=?1",nativeQuery = true)
     public List<Cart_Item> getItemsinCart(Long cartId);
 
 }
