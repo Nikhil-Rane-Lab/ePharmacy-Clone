@@ -19,6 +19,8 @@ public class CartItemController {
    @PostMapping("/addtocart/users/{userid}/product/{pdid}")
    public String addtoCart(@RequestBody Cart_Item cartItem, @PathVariable("userid") Long userId , @PathVariable("pdid") Long productId ){
 
+       System.out.println("Iam in Cart controller add to cart");
+
       return  cartItemService.addtoCart(userId,productId, cartItem.getQuantity());
 
    }

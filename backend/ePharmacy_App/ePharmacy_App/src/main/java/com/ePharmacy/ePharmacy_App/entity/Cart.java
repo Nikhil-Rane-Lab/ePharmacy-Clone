@@ -19,12 +19,12 @@ public class Cart {
     private Long cart_id;
 
 
-    @JsonBackReference
+    @JsonBackReference(value = "user")
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "user_id")
     private User user;
 
-    @JsonBackReference
+
     @OneToMany(mappedBy = "cart", fetch = FetchType.EAGER)
     private List<Cart_Item> cart_items;
 

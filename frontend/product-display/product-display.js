@@ -10,10 +10,11 @@ insertDiv.innerHTML = null;
 async function showCharacter() {
 	let res = await fetch(`http://localhost:8080/product`);
 	let data = await res.json();
-
+	console.log('data:', data);
 	// console.log('insertDiv:', insertDiv);
 	let found = false;
 	data.forEach((e) => {
+		console.log('e.id:', e.product_id);
 		if (e.brand_name == searchKey || e.product_name == searchKey) {
 			found = true;
 			// console.log('yes');
@@ -34,7 +35,7 @@ async function showCharacter() {
             <div class="product-description">${e.product_name}</div>
             <div class="product-size">${e.product_qty}</div>
             <div class="product-prescription">*Prescription ${prescription(e.prescription_required)} required</div>
-            <button class="add-to-cart">Add To Cart</button>
+            <button class="add-to-cart" value="${e.product_id}" >Add To Cart</button>
         </div>`;
 			// console.log('productDiv:', productDiv);
 			insertDiv.append(productDiv);
@@ -51,6 +52,7 @@ async function showCharacter() {
 		productDiv.style.weight = '500';
 		insertDiv.append(productDiv);
 	}
+	addToCart();
 }
 
 showCharacter();
@@ -73,3 +75,22 @@ let keyword = document.querySelector('.main-text');
 // let w = localStorage.getItem('searchKeyword');
 keyword.innerText = JSON.parse(localStorage.getItem('searchKeyword'));
 
+async function addToCart() {
+	let btn = document.querySelectorAll('button');
+	btn.forEach((element) => {
+		element.addEventListener('click', () => {
+			let id = element.value;
+			console.log('id:', id);
+			let userId = JSON.parse(localStorage.getItem('userDetail')).userId;
+			fetch(`http://localhost:8080/addtocart/users/${userId}/product/${id}`, {
+				method: 'POST',
+				body: JSON.stringify({
+					quantity: 1
+				}),
+				headers: {
+					'Content-Type': 'application/json'
+				}
+			});
+		});
+	});
+}

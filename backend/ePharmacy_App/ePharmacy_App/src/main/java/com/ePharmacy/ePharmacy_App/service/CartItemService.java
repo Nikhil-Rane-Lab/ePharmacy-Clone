@@ -32,6 +32,7 @@ public class CartItemService {
         Product product = productRepository.findById(prodId).get();
 
 
+
         Cart cart = user.getCart();
 
         List<Cart_Item> cartItems = cart.getCart_items() ;
@@ -62,7 +63,7 @@ public class CartItemService {
 
         Long cartId = user.getCart().getCart_id();
 
-        return  user.getCart().getCart_items();
+        return  cartItemRepository.getItemsinCart(cartId) ;
 
     }
 
