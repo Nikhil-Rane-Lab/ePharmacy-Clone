@@ -173,7 +173,7 @@ function decreaseQty(productID){
     if(currentQty>1){
     document.getElementById(temp).innerText = currentQty - 1; 
     var updatedQty = currentQty-1;
-    debounce(updateQty,500,productID,updatedQty);
+    debounce(updateQty,1000,productID,updatedQty);
     }
     
 }
@@ -189,7 +189,7 @@ function increaseQty(productID){
 
       var updatedQty = currentQty + 1;
 
-        debounce(updateQty,500,productID,updatedQty);
+        debounce(updateQty,1000,productID,updatedQty);
 }
 
 async function updateQty(productID,updatedQty){
@@ -207,6 +207,6 @@ async function updateQty(productID,updatedQty){
 			});
 
              
-            setTimeout(totalCartAmount,3500);
+            setTimeout(totalCartAmount,4000);
             
 }
