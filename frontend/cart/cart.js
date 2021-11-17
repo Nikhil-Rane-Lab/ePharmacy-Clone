@@ -106,14 +106,14 @@
 
 }
 
-var totalAfterUpdate =0;
+
 async function totalCartAmount(){
     
     let user = JSON.parse(localStorage.getItem("userDetail"));
       
     let res = await fetch(`http://localhost:8080/cartItems/user/${user.userId}`);
     let data = await res.json();
-   
+    var totalAfterUpdate =0;
     data.forEach((e)=>{
         totalAfterUpdate = totalAfterUpdate + e.total;
     });
