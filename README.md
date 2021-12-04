@@ -30,7 +30,7 @@ This is how the landing page of our website looks like.
 
 Then the user is requested to enter his mobile number to sign up / sign in
 
-<img width="187" alt="2" src="https://user-images.githubusercontent.com/70564188/144709799-7fc145f1-69a0-48fc-bb59-605514f279a7.png">
+<img width="189" alt="5" src="https://user-images.githubusercontent.com/70564188/144710714-84f3d30d-665e-4964-a580-21b95a0633be.png">
 
 ## OTP verification page:
 
@@ -68,6 +68,8 @@ Alternatively the user could also have be interested in buying a particular medi
 ## Search Result Page:
 
 After that relevant search results are shown to the user.
+
+<img width="182" alt="19" src="https://user-images.githubusercontent.com/70564188/144710735-9d332f60-d6b9-4ebf-8f4c-928480c1a905.png">
 
 ## My cart:
 
