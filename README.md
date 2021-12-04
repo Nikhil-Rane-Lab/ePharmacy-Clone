@@ -75,4 +75,48 @@ The user can add the medicines in the cart and vary its quatity in the cart itse
 
 <img width="185" alt="20" src="https://user-images.githubusercontent.com/70564188/144710289-9fedd7eb-5b15-4d1f-b232-ba89722cac2d.png">
 
-##
+## Attach Prescription
+
+The user can also upload his prescription via phone gallery / camera.
+
+<img width="187" alt="12" src="https://user-images.githubusercontent.com/70564188/144710350-c8b8efd4-a918-48ba-b554-5084595d322c.png">
+
+## Prescription Order
+
+User is able to see all the images he have uploaded here
+
+<img width="196" alt="13" src="https://user-images.githubusercontent.com/70564188/144710375-eceee353-25ac-4c4b-8c1c-efb528c47747.png">
+
+## Thank You Page
+
+The user is shown this page to let him know that someone from ePharmacy will contact him soon if that medicine is available.
+
+<img width="191" alt="14" src="https://user-images.githubusercontent.com/70564188/144710417-48cfdbf4-e149-4e67-bd72-1411a73634de.png">
+
+## Select Payment
+
+After that the user can select his payment mode and see his payment details.
+
+<img width="190" alt="15" src="https://user-images.githubusercontent.com/70564188/144710444-26e9aa69-23a6-4bb3-8fce-189d991fdeb8.png">
+
+## Payment Gateway
+
+The user is able to see all his final selected payment details.
+
+<img width="197" alt="16" src="https://user-images.githubusercontent.com/70564188/144710467-7c40c2d8-4101-4e96-99bb-c83568950077.png">
+
+## Order Successful
+
+The user is shown the order successful page once the payment is done.
+
+<img width="185" alt="17" src="https://user-images.githubusercontent.com/70564188/144710501-f3698b3f-9746-4cb6-8296-aad213cab954.png">
+
+
+# Libraries
+
+ [Google Fonts](https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap/ "Named link title")
+ 
+# Icons
+
+[Google Fonts](https://fontawesome.com// "Named link title")
+[Google Fonts](https://fonts.google.com/icons// "Named link title")
