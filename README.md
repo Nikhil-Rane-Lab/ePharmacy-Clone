@@ -15,6 +15,14 @@ A mobile first Healthcare website where user can search for medicines and buy th
 
 ## Developed By:
 
+1. Nikhil Rane 
+2. Rahul Meena
+3. Suraj Meena
+4. Caryn Dsouza
+5. M. Chaitanya
+6. Rahul Sheelavantar
+7. Anshuman Kashyap
+
 ## Purpose
 We are purpose driven to bridge the gap between patients and quality medicine supply chain by utilizing the knowledge of HTML, CSS, JS, Spring Boot etc learnt at Masai School to build ePharmacy.com as similar as possible from the reference figma file given to us.
 
