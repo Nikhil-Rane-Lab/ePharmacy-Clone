@@ -17,7 +17,7 @@ A mobile first Healthcare website where user can search for medicines and buy th
 
 1. Nikhil Rane 
 2. Rahul Meena
-3. Suraj Meena
+3. Suraj Verma
 4. Caryn Dsouza
 5. M. Chaitanya
 6. Rahul Sheelavantar
