@@ -111,12 +111,4 @@ The user is shown the order successful page once the payment is done.
 
 <img width="185" alt="17" src="https://user-images.githubusercontent.com/70564188/144710501-f3698b3f-9746-4cb6-8296-aad213cab954.png">
 
-
-# Libraries
-
- [Google Fonts](https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap/ "Named link title")
- 
-# Icons
-
-[Google Fonts](https://fontawesome.com// "Named link title")
-[Google Fonts](https://fonts.google.com/icons// "Named link title")
+Thank You for Visiting.
